@@ -84,41 +84,7 @@ var store = Store.getProductList();
         </table>
       </Fragment>
     );
-  // } else {
-  //   return (
-  //     <Fragment>
-  //       <NavBar></NavBar>
-  //       <Form.Group>
-  //         <Form.Control
-  //           onChange={(e) => {
-  //             search(e.target.value);
-  //           }}
-  //           type="text"
-  //           placeholder="Type Here to search player"
-  //         />
-  //       </Form.Group>
-
-  //       <table className="table mt-5 text-center">
-  //         <thead>
-  //           <tr>
-  //             <th>Player Name</th>
-  //             <th>Team Name</th>
-  //           </tr>
-  //         </thead>
-  //         <tbody>
-  //           {filteredData.map((team, index) =>
-  //             team.players.map((player, key) => (
-  //               <tr key={index}>
-  //                 <td>{player}</td>
-  //                 <td>{team.name}</td>
-  //               </tr>
-  //             ))
-  //           )}
-  //         </tbody>
-  //       </table>
-  //     </Fragment>
-  //   );
-  // }
+ 
 };
 
 export default Players;
