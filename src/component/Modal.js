@@ -27,7 +27,7 @@ const MyModal = ({ addTeam, addPlayer, caller, index }) => {
 
   return (
     <>
-      <button className="btn btn-success" onClick={showModal} style={{margin :"0px auto", display:"block", marginTop:"10px"}}>
+      <button className="btn btn-success" onClick={showModal} style={{margin :"0px auto", display:"block"}}>
         Add {caller}
       </button>
       <Modal show={isOpen} onHide={hideModal}>
